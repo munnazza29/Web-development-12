@@ -1,0 +1,19 @@
+//greet the user
+alert("welcome to our website!");
+//collect the username
+let Munnazza =prompt("please enter your name:");
+//verify the user age
+let adult =confirm("are you 18 or adult?");
+//log the users age confirmation status 
+if (adult) {
+console.log("users age status:18 or older");
+//if the user is 18 or older
+document.write('Hello, Munnazza! Welcome To site.');
+console.log('Hello, Munnazza! Welcome To site.');
+}
+ else{
+console.log("users age status: under 18");
+//if the user is under 18
+document.write('sorry, Munnazza, you must be 18 or older to continue.');
+console.log('sorry, Munnazza,you must be 18 or older to continue');
+}
